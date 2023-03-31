@@ -20,10 +20,18 @@
 
 .payment-input {
   padding: 1rem 2rem;
-  width: 70%;
+  width: 100%;
   background-color: rgb(247, 247, 247);
   border: none;
   border-radius: 15px;
+}
+
+.payment-input-flex-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 49%;
 }
 
 .payment-form {
@@ -31,6 +39,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  padding: 2rem;
   width: 45vw;
   height: 60vh;
   background-color: rgb(211, 211, 211);
@@ -51,6 +60,21 @@
 
 .payment-button:hover {
   background-color: rgb(39, 98, 171);
+}
+
+.register-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 70%;
+}
+
+.register-name-inputs {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 70%;
 }
 
 .card-element {
