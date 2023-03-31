@@ -10,6 +10,19 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.currency-input-container {
+  display: flex;
+  padding: 1rem 2rem;
+}
+
+.currency-input {
+  padding: 0.5rem;
+  background: none;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+}
+
 .payment-form-container {
   display: flex;
   justify-content: center;
@@ -24,6 +37,7 @@
   background-color: rgb(247, 247, 247);
   border: none;
   border-radius: 15px;
+  font-size: 17px;
 }
 
 .payment-input-flex-item {
