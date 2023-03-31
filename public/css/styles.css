@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.payment-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.payment-input {
+  padding: 1rem 2rem;
+  width: 70%;
+  background-color: rgb(247, 247, 247);
+  border: none;
+  border-radius: 15px;
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 45vw;
+  height: 60vh;
+  background-color: rgb(211, 211, 211);
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgb(107, 107, 107);
+}
+
+.payment-button {
+  padding: 1rem 2rem;
+  background-color: rgb(60, 148, 255);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.payment-button:hover {
+  background-color: rgb(39, 98, 171);
+}
+
+.card-element {
+  height: fit-content;
+}
